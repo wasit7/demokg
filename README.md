@@ -1,4 +1,4 @@
-# demoKG
+# DemoKG
 ## Knowledge Graph Tutorials 
 Tutorials for students and researchers. The tutorials include related topics suchas SPO triples preparation, Graph Database, Knowledge Graph Embedding,  LLM integrations and Graph Visualization.
 
