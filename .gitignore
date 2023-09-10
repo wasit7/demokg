@@ -2,6 +2,9 @@
 _draft
 .env
 
+# data
+*.parquet
+datasets
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+        <script src="https://cdn.jsdelivr.net/npm/apache-arrow"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vega-loader-arrow"></script>
+      </head>
+      <body>
+        <div id="view1"></div>
+        <div id="view2"></div>
+        <script>
+          
+          var spec = "static/bar2.json";
+          var v2 = vegaEmbed('#view1', spec).then(function(result) {
+            // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+          }).catch(console.error);
+          
+          
+
+          var v1 = vegaEmbed(
+            '#view2','static/bar-chart.vg.json'
+            // 'https://vega.github.io/vega/examples/bar-chart.vg.json'
+          );
+
+
+        </script>
+      </body>
+</html>
