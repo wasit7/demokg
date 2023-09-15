@@ -15,8 +15,8 @@ def home():
 @app.get("/d.arrow")
 def get_arrow():
     data = [
-        pa.array(['A', 'B', 'C', 'D']),
-        pa.array([28, 55, 43, 91], type=pa.int32())
+        pa.array(['A', 'B', 'C', 'D', 'E']),
+        pa.array([28, 55, 43, 91, 100], type=pa.int32())
     ]
 
     batch = pa.record_batch(data, names=['category', 'amount'])

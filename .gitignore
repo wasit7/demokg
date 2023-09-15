@@ -4,6 +4,7 @@ _draft
 
 # data
 *.parquet
+*.arrow
 datasets
 # Byte-compiled / optimized / DLL files
 __pycache__/
