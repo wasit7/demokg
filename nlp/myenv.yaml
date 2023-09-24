@@ -8,7 +8,7 @@ specs:
   - python =3.7  # Python MUST be version 3.7
   - pip
   - conda
-  - mamba  # mamba is not needed but recommended
+  # - mamba  # mamba is not needed but recommended
 
   # If any of your packages pulls in cudatoolkit:
   # uncomment the line below to make sure it matches
