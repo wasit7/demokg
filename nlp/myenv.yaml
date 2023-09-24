@@ -1,5 +1,5 @@
 
-name: condacolab  # you can edit this if you want
+name: myenv  # you can edit this if you want
 version: 0.1      # increment if you change the specs, for reproducibility!
 
 channels:
