@@ -7,3 +7,6 @@ $pip install pandas
 $pip install spacy_thai
 $jupyter notebook
 ```
+
+## References
+https://pythainlp.github.io/tutorials/notebooks/Thai_Dependency_Parser.html
